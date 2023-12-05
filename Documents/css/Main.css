@@ -1,10 +1,30 @@
-@import "Global.css";
+@import "Global.css";    
 
 #homeimg1{
-height:300px;
-border-radius:20px;
-float:right;
-margin:15px;
+    display: flex;
+    height:300px;
+    border-radius:20px;
+    float:right;
+    margin:20px;
+}
+#homeimg1:hover{
+    transition: ease-out 0.3s;
+    opacity: 0;
+    height:310px;
+    margin:11px;
+}
+
+.text-on-hover{
+    text-align: right;
+    position: absolute;
+    top: 43%;
+    left: 81%;
+    transform: translate(-50%, -50%);
+    opacity:0;
+}
+.img-container:hover .text-on-hover{
+    transition:ease-in 0.3s;
+    opacity:1;
 }
 
 section {
@@ -12,7 +32,7 @@ section {
     padding: 20px;
     font-size:large;
     text-align:justify;
-    height: 502px;
+    height: 561px;
 }
 
 footer {

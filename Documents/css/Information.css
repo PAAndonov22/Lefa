@@ -2,7 +2,7 @@
 
 #sidebar {
     width: 150px;
-    height: 100vh;
+    height: 500hv;
     flex-shrink: 0;
     margin: 0;
     padding:20px;
@@ -17,11 +17,34 @@
     
 }
 
+#sidebar a{
+    color:#000000;
+    text-decoration:none;
+}
+
+#sidebar a:hover{
+    color:white;
+}
+
 section {
     flex: 1;
     padding: 20px;
     font-size:large;
     text-align:justify;
+}
+
+#info-img-1{
+    display: flex;
+    height:300px;
+    border-radius:20px;
+    float:right;
+    margin:20px;
+}
+
+#info-img-1:hover{
+    transition:ease-out 0.3s;
+    height:310px;
+    margin:12px;
 }
 
 footer {
