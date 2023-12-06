@@ -23,7 +23,7 @@
 }
 
 #sidebar a:hover{
-    color:white;
+    color:rgb(255, 255, 255);
 }
 
 section {
@@ -44,7 +44,40 @@ section {
 #info-img-1:hover{
     transition:ease-out 0.3s;
     height:310px;
-    margin:12px;
+    margin:12.5px;
+}
+
+#info-img-2{
+    display: flex;
+    height:300px;
+    border-radius:20px;
+    float:right;
+    margin:20px;
+}
+
+#info-img-2:hover{
+    transition:ease-out 0.3s;
+    height:310px;
+    margin:11px;
+}
+
+#info-img-3{
+    display: flex;
+    height:300px;
+    border-radius:20px;
+    float:right;
+    margin:20px;
+}
+
+#info-img-3:hover{
+    transition:ease-out 0.3s;
+    height:310px;
+    margin:12.4px;
+}
+
+#section-ul li{
+    margin-bottom:10px;
+    margin-left:40px;
 }
 
 footer {
