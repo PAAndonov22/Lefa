@@ -1,5 +1,9 @@
 @import "Global.css";    
 
+#home{
+    color:white;
+}
+
 #homeimg1{
     display: flex;
     height:300px;
@@ -17,13 +21,14 @@
 .text-on-hover{
     text-align: right;
     position: absolute;
-    top: 43%;
-    left: 81%;
+    font-size:larger;
+    top: 45%;
+    left: 80.5%;
     transform: translate(-50%, -50%);
     opacity:0;
 }
 .img-container:hover .text-on-hover{
-    transition:ease-in 0.3s;
+    transition:ease-in 0.4s;
     opacity:1;
 }
 

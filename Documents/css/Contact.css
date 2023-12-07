@@ -1,5 +1,9 @@
 @import "Global.css";
 
+#contact{
+    color:white;
+}
+
 section {
     flex: 1;
     padding: 20px;

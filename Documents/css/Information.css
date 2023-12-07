@@ -1,5 +1,9 @@
 @import "Global.css";
 
+#info{
+    color:white;
+}
+
 #sidebar {
     width: 150px;
     height: 500hv;
@@ -51,7 +55,7 @@ section {
     display: flex;
     height:300px;
     border-radius:20px;
-    float:right;
+    float:left;
     margin:20px;
 }
 
