@@ -5,20 +5,21 @@
 }
 
 #sidebar {
-    width: 150px;
+    width: 250px;
     height: 500hv;
     flex-shrink: 0;
     margin: 0;
     padding:20px;
     background-color:rgba(115, 255, 0, 0.518);
-    
 }
 
 #sidebar li{
-    margin:20px;
+    position:sticky;
+    margin:15px;
     text-decoration:none;
     color:black;
-    
+    font-size:larger;
+    margin-bottom:40px;
 }
 
 #sidebar a{
@@ -35,6 +36,11 @@ section {
     padding: 20px;
     font-size:large;
     text-align:justify;
+}
+
+#section-ul li{
+    margin-bottom:10px;
+    margin-left:40px;
 }
 
 #info-img-1{
@@ -79,9 +85,18 @@ section {
     margin:12.4px;
 }
 
-#section-ul li{
-    margin-bottom:10px;
-    margin-left:40px;
+#info-img-4{
+    display: flex;
+    height:290px;
+    border-radius:20px;
+    float:right;
+    margin:20px;
+}
+
+#info-img-4:hover{
+    transition:ease-out 0.3s;
+    height:300px;
+    margin:12px;
 }
 
 footer {

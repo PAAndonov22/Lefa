@@ -38,6 +38,10 @@ nav a:hover {
     color: #ffffff;
 }
 
+nav a.active{
+    color:white;
+}
+
 .dropdown {
     display: inline-block;
 }

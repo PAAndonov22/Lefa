@@ -18,9 +18,11 @@ article {
 }
 
 .contact-card {
+    font-size:larger;
     border: 1px solid #ddd;
     padding: 15px;
     margin-bottom: 20px;
+    text-align:justify;
 }
 
 .contact-card h3 {
@@ -31,7 +33,15 @@ article {
     margin-bottom: 0;
 }
 
+.pictures{
+    height:120px;
+    display:flex;
+    float:right;
+    border-radius:10px;
+}
+
 .github-btn {
+    font-size:large;
     display: inline-block;
     padding: 10px;
     background-color: #333;
@@ -43,6 +53,14 @@ article {
 
 .github-btn:hover {
     background-color: #555;
+}
+
+.github-logo{
+    position:absolute;
+    margin-top:1.2vw;
+    margin-left:10px;
+    height:25px;
+    align-items:center;
 }
 
 footer {
