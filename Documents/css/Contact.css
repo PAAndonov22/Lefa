@@ -36,8 +36,9 @@ article {
 .pictures{
     height:120px;
     display:flex;
-    float:right;
+    float:left;
     border-radius:10px;
+    margin-right:13px;
 }
 
 .github-btn {

@@ -12,7 +12,7 @@
 #contact_us_div
         {
             margin-top: 9vw;
-            font-size:larger;
+            font-size:25px;
         }
         
                 #form_name_div
@@ -78,7 +78,7 @@
 #send_button:hover{
     transition:ease-out 0.1s;
     margin-top:23.5vw;
-    left:45.4%;
+    left:45.45%;
     width:150px;
     height:80px;
     color:white;

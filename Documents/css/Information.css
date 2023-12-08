@@ -5,7 +5,7 @@
 }
 
 #sidebar {
-    width: 250px;
+    width: 230px;
     height: 500hv;
     flex-shrink: 0;
     margin: 0;
@@ -14,12 +14,16 @@
 }
 
 #sidebar li{
-    position:sticky;
-    margin:15px;
+    margin-left:15px;
     text-decoration:none;
     color:black;
-    font-size:larger;
+    font-size:medium;
     margin-bottom:40px;
+}
+
+#sidebar ol li{
+    margin-bottom:15px;
+    margin-left:0;
 }
 
 #sidebar a{
@@ -59,7 +63,7 @@ section {
 
 #info-img-2{
     display: flex;
-    height:300px;
+    height:290px;
     border-radius:20px;
     float:left;
     margin:20px;
@@ -67,8 +71,8 @@ section {
 
 #info-img-2:hover{
     transition:ease-out 0.3s;
-    height:310px;
-    margin:11px;
+    height:300px;
+    margin:10.9px;
 }
 
 #info-img-3{
@@ -89,7 +93,7 @@ section {
     display: flex;
     height:290px;
     border-radius:20px;
-    float:right;
+    float:left;
     margin:20px;
 }
 
