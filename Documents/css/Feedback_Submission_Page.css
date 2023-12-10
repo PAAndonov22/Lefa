@@ -48,13 +48,14 @@
 }
 
 #home_button:hover{
-    transition:ease-out 0.15s;
+    transition:ease-out 0.08s;
     align-items:center;
     position:absolute;
-    width:183px;
-    height:89px;
-    margin-top:27.9vw;
-    left:44.8%;
+    width:188px;
+    height:94px;
+    margin-top:27.6vw;
+    left:44.7%;
+    color:white;
 }
 
 footer {

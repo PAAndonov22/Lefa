@@ -76,8 +76,8 @@
 }
 
 #send_button:hover{
-    transition:ease-out 0.1s;
-    margin-top:23.5vw;
+    transition:ease-out 0.08s;
+    margin-top:23.6vw;
     left:45.45%;
     width:150px;
     height:80px;
