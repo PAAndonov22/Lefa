@@ -1,0 +1,118 @@
+body {
+    background-image: url('../imgs/pntre.png');
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    color: #555555; /* Adjusted to a more grayish color */
+}
+
+header {
+    background-color: #ffffff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 2px solid #ddd; /* Add a border to the bottom of the header */
+}
+
+.logo img {
+    max-width: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin-right: 20px;
+}
+
+nav ul li {
+    color: #555555; /* Adjusted to a more grayish color */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #555555; /* Adjusted to a more grayish color */
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #777777; /* Adjusted hover color to a darker gray */
+}
+
+main {
+    margin:20px;
+    margin-top: 70px;
+    padding-top: 20px;
+}
+
+h1{
+    color:rgb(116, 116, 116);
+}
+
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.fade-in {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.contact-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius:10px;
+    background-color:white;
+}
+
+.contact-card h3 {
+    margin-top: 0;
+}
+
+.contact-card p {
+    margin-bottom: 0;
+}
+.pictures{
+    height:120px;
+    display:flex;
+    float:left;
+    border-radius:10px;
+    margin-right:13px;
+}
+
+.github-btn {
+    font-size:large;
+    display: inline-block;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.github-btn:hover {
+    background-color: #555;
+}
+
+.github-logo{
+    position:absolute;
+    margin-top:1.2vw;
+    margin-left:10px;
+    height:25px;
+    align-items:center;
+}
