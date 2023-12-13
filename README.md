@@ -24,14 +24,3 @@ Data Transparency: Committed to transparency, we share air quality data openly. 
 Team Lefa is continually evolving, with plans for the implementation of additional technologies, expansion to new regions, and the development of innovative solutions. Our vision involves staying at the forefront of advancements in environmental sustainability. 🚀🌎
 
 Join us on our journey towards a sustainable future, where clean air and responsible living are fundamental components of urban life. 🌿💚
-
-## 🚀 Languages and tools:
-**<p align="left"> 
-        <img src="./imgs/html.png" width="50px" height="50px"> 
-        <img src="./imgs/css.png" width="50px" height="50px"> 
-        <img src="./imgs/vscode.png" width="50px" height="50px"> 
-        <img src="./imgs/powerpoint.png" width="50px" height="50px"> 
-        <img src="./imgs/word.png" width="50px" height="50px"> 
-        <img src="./imgs/teams.png" width="50px" height="50px"> 
-        <img src="./imgs/figma.png" width="50px" height="50px">
-        <img src="./imgs/discord.png" width="50px" height="50px">
